@@ -1,5 +1,5 @@
 # Learning Generative ConvNets via Multi-grid Modeling and Sampling
-A PyTorch implementation of the paper: http://www.stat.ucla.edu/~ruiqigao/multigrid/main.html.
+A PyTorch implementation of the paper: [Learning Generative ConvNets via Multi-grid Modeling and Sampling](http://www.stat.ucla.edu/~ruiqigao/multigrid/main.html)
 
 ## Getting Started
 
