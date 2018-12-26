@@ -14,7 +14,7 @@ python main.py --dataset_name dataset_name
 PyTorch(>0.1.12). You can install it [here.](https://pytorch.org/)
 
 ## Authors
-Prateek Malhotra
+Prateek Malhotra<br/>
 Ruiqi Gao
 
 ## Resources
