@@ -22,7 +22,7 @@ if torch.cuda.is_available() == True:
     dtype = torch.cuda.FloatTensor
 
 def image_to_variable(image):
-    return Variable(torch.from_numpy(image.transpose(2, 0, 1)[np.newaxis, ...]), requires_grad=True).type(dtype)
+    return Variable(torch.from_numpy(image.transpose(2, 0, 1)[np.newaxis, ...]).type(dtype), requires_grad=True)
 
 def process_data_seq(FLAGS):
     direc = FLAGS.dataset_name
